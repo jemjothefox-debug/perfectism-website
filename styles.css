@@ -172,6 +172,14 @@ h1, h2, h3 {
   border: 1px solid var(--border);
 }
 
+.brand-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
 .pill--inline {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
