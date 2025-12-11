@@ -131,6 +131,7 @@ h1, h2, h3 {
   background: linear-gradient(120deg, rgba(110, 243, 197, 0.15), rgba(122, 183, 255, 0.1));
   border-color: var(--border-strong);
   box-shadow: var(--shadow);
+  gap: 10px;
 }
 
 .logo-mark {
@@ -146,10 +147,10 @@ h1, h2, h3 {
 }
 
 .logo-img {
-  width: 40px;
-  height: 40px;
-  max-width: 40px;
-  max-height: 40px;
+  width: 40px !important;
+  height: 40px !important;
+  max-width: 40px !important;
+  max-height: 40px !important;
   min-width: 40px;
   min-height: 40px;
   flex: 0 0 40px;
@@ -535,4 +536,10 @@ input[type="email"]::placeholder {
   .input-group {
     flex-direction: column;
   }
+}
+.topbar img.logo-img {
+  width: 40px !important;
+  height: 40px !important;
+  max-width: 40px !important;
+  max-height: 40px !important;
 }
